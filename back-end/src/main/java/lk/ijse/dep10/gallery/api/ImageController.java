@@ -41,7 +41,6 @@ public class ImageController {
     public List<String> saveImages(@RequestPart("images") List<Part> imageFiles,
                                    UriComponentsBuilder urlBuilder){
         List<String> imageUrlList = new ArrayList<>();
-
         if (imageFiles != null){
             String imageDirPath = servletContext.getRealPath("/images");
             for (Part imageFile : imageFiles) {

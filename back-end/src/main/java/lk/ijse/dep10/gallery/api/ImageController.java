@@ -15,7 +15,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin
-@RequestMapping("/images")
+@RequestMapping("/api/v1/images")
 public class ImageController {
 
     @Autowired

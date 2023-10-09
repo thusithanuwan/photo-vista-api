@@ -1,83 +1,46 @@
-# P H O T O - V I S T A
+# Photo Vista Back-End API
+Welcome to the Photo Vista Back-End API repository! This project serves as the back-end API for the Photo Vista web application. Photo Vista allows users to explore a collection of photos using the public Flickr API. Additionally, it offers a convenient feature for users to store and manage their own image gallery.
 
-## Description
+If you're interested in testing out the back-end, you can find the corresponding front-end code in the following repository: [photo-vista](https://github.com/thusithanuwan/photo-vista.git)
 
-Photo Vista is an exciting Angular project that allows users to explore a vast collection of photos using the public Flickr API. The application also comes with an additional feature - a personal image gallery, allowing users to curate and store their favorite images. The image gallery feature is designed to work seamlessly with the Spring back-end.
-
-If you're interested in testing out the own gallery feature, you can find the corresponding back-end code in the following repository: [photo-vista-api](https://github.com/thusithanuwan/photo-vista-api.git)
 
 
 ## Tech Stack
 
-The application is built using the following technologies:
-
-
+The back-end API is built using the following technologies:
 
 <div align="center">
 
-![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
-&nbsp;![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-&nbsp;![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-&nbsp;![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-&nbsp;![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-&nbsp;![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+&nbsp;![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 &nbsp;![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+
 
 </div>
 
+## Photo Vista API Documentation
 
-## Releases
-
-The first release of Photo Vista is named "Initial Photo Lookup (v1.0.0)". You can find it in the following link: [Initial Photo Lookup (v1.0.0)](https://github.com/thusithanuwan/photo-vista/releases/tag/v.1.0.0)
-
-## Prerequisites
-
-Before running the application, make sure you have Node.js,NPM and angular CLI globally installed. You can install them using the following links:
+For detailed information on how to interact with the Photo Vista API, refer to the  [API Documentation](https://documenter.getpostman.com/view/26635204/2s9XxyQYkg)
 
 
+## Deployment and Usage
 
-[Debian and Ubuntu based Linux distributions - Node.js,NPM](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
+To use the Photo Vista Back-End API, follow these steps:
 
-[macOS - Node.js,NPM](https://nodejs.org/en/download/package-manager/#macos)
-
-[Windows - Node.js,NPM](https://nodejs.org/en/download/package-manager/#windows)
-
-[Angular CLI](https://angular.io/cli)
-
-
-
-
-## Quick Start
-
-Follow these steps to run the application locally:
 
 1. Clone the repository to your local machine:
 ```
-$ git clone https://github.com/thusithanuwan/photo-vista.git
+$ git clone https://github.com/thusithanuwan/photo-vista-api.git
 ```
+2. Open the project in your preferred Java development environment (e.g., IntelliJ IDEA, Eclipse).
 
-2. Change directory to the project folder:
-```
-$ cd ./front-end
-```
+3. Build the project and resolve any dependencies.
 
-3. Install dependencies:
-```
-$ npm install
-```
+4. Deploy the back-end API to your desired server or hosting platform.
 
-4. Create a Flickr account and obtain your API key.
-5. Set your Flickr API key inside the environment/environment.development.ts file.
+5. Ensure that the front-end application (Photo Vista) is correctly configured to interact with this API by setting the appropriate base URL.
 
-6. Start the development server:
-```
-$ ng serve
-```
-## Screenshots
-
-![Screenshot from 2023-08-04 17-03-17](https://github.com/thusithanuwan/photo-vista/assets/120198968/84f0d733-f1fe-4bcf-8f80-f7ae5ae48cb1)
-![Screenshot from 2023-08-04 17-04-12](https://github.com/thusithanuwan/photo-vista/assets/120198968/2a926b8f-40f1-4775-b86e-ae3af3340a49)
-![Screenshot from 2023-08-04 17-04-25](https://github.com/thusithanuwan/photo-vista/assets/120198968/02d4fe25-469a-47f0-8e9a-97fe604db352)
+6. Run the front-end application (Photo Vista) to start using the full application.
 
 ## License
 
